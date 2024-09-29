@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP MOD 3 WEBPRO M. Rafdi RostiadhiPramana 1303223070+
+
+    </title>
+    <style>
+
+        .container {
+            /* agar beberapa elemen berada di satu baris yang sama */
+            display: flex; 
+            /* untuk menempatkan sebuah item  berada di tengah */
+            align-items: center;
+            /* untuk memberikan jarak */
+            padding: 20px;
+        }
+
+        .foto, .video {
+            text-align: center;
+        }
+
+       .foto img {
+            /* untuk membuat border dari sebuah foto dengan ketebalan 5px berwarna hitam */
+            border: 5px solid black;
+       }
+
+       table, td, th, tr {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Untuk Membuat Heading -->
+    <h1>PROFIL PRIBADI</h1>
+
+    <!-- Sebuah Wadah Untuk Membungkus Sebuah Elemen -->
+    <div class="container">
+        <!-- Sebagai Wrapper Dari Foto dan Tulisan -->
+        <div class="foto">
+            <!-- Untuk Mengimport Sebuah Foto Kedalam File HTML -->
+            <img src="cvrapdi.jpg" alt="foto-profil" style="width: 35%;">
+            <!-- Untuk Membuat Sebuah Heading, Berfungsi Sebagai Subjudul -->
+            <h3>Foto Profil</h3>
+        </div>
+        <!-- Sebagai Sebuah Wadah Dari Video dan Tulisan -->
+        <div class="video">
+            <!-- Untuk Mengimport Sebuah Foto Kedalam File HTML -->
+            <video width="400" controls>
+                <source src="videoplayback.mp4" type="video/mp4">
+            </video>
+            <!-- Untuk Membuat Sebuah Heading, Berfungsi Sebagai Subjudul-->
+            <h3>Video Perkenalan</h3>
+        </div>
+    </div>
+
+    <!-- Untuk Membuat Sebuah Heading, Berfungsi Sebagai Subjudul -->
+    <h2>Tentang Saya</h2>
+    <!-- Untuk Membuat Sebuah Paragraf -->
+    <p>Halo! Saya adalah seorang adalah seorang hacker baik, yang tidak pernah jahat, padahal saya selalu disakiti. </p>
+    <p>Quotes : Gaji tidak akan pernah besar, karna yang besar itu gajah</p>
+    
+    <!-- Untuk Membuat Sebuah Heading, Berfungsi Sebagai Subjudul -->
+    <h2>Keterampilan</h2>
+    <!-- Untuk Membuat Sebuah Tabel -->
+    <table>
+        <!-- Untuk Membuat Tabel Row -->
+        <tr>
+            <!-- Untuk Membuat Table Header -->
+            <th>Keterampilan</th>
+            <th>Tingkat</th>
+        </tr>
+        <tr>
+            <!-- Untuk Membuat Table Data -->
+            <td>HTML</td>
+            <td>Mahir</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Mahir</td>
+        </tr>
+        <tr>
+            <td>Javascript</td>
+            <td>Kurang</td>
+        </tr>
+        <tr>
+            <td>Linux</td>
+            <td>Proplayer</td>
+        </tr>
+        <tr>
+            <td>PUBG MOBILE</td>
+            <td>Proplayer</td>
+        </tr>
+    </table>
+    
+    <!-- Untuk Membuat Sebuah Form -->
+    <form>
+        <!-- Untuk Membuat Sebuah Heading, Berfungsi Untuk Subheading -->
+        <h2>Hubungi Saya</h2>
+        <!-- Untuk Membuat Form Yang Dapat Diisi -->
+        <label for="nama"> Nama: </label>
+        <!-- Untuk Membuat Kolom Untuk Diisi -->
+        <input type="text"> <br>
+        <label for="Email"> Email: </label>
+        <input type="text"> <br>
+        <label for="Pesan"> Pesan: </label><br>
+        <!-- Untuk Membuat Kolom Yang Dapat Diisi Dengan Text Yang Lebih Banyak -->
+        <textarea name="Pesan"></textarea><br>
+        <!-- Untuk Membuat Sebuah Button -->
+        <button>
+            <input type="submit" value="Kirim Pesan">
+        </button>
+    </form>
+
+    <h2>Media Sosial</h2>
+    <!-- Untuk Menaruh Sebuah Link Yang Dapat Diklik -->
+    <a href="https://www.instagram.com/r_p_rafdi?igsh=MTV6d28zMWRqMDZxdA%3D%3D&utm_source=qr"> <img src="instagram.png" alt="instagram" width="80px"></a>
+
+</body>
+</html>
